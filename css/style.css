@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    padding-left: 1vw;
+}
+
+.pattern{
+    background-image: url("../img/pattern.png");
+    background-color: rgb(17, 114, 206);
+    width:100vw;
+    height: 18vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    background-image: url("../img/logo.svg");
+    position: absolute;
+    width: 30vw;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 1%;
+    bottom: 6%;
+    
+}
+
+.titolo-head{
+    margin-top: 1%;    
+    
+}
+
+.firma{
+    color: rgb(69, 153, 153);
+}
+
+.info{
+    color: rgba(0, 0, 0,0.6)
+}
+
+.immaginimain{
+    margin-top: 20px;
+  
+}
+
+.loremp{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.testo-evidenza{
+    background-color: yellow;
+}
+
+.listalorem{   
+    margin-bottom: 1%;
+}
+
+.titolo-tabella{
+    color: white;
+    background-color: rgb(9, 95, 209);
+    height: 10px;
+}
+
+.tabella-testo{
+    text-align: left;
+}
+
+.tr-azzurra{
+    background-color: aqua;
+}
+
+
+.container-pub{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.testo-pub{
+    position: absolute;
+    top: 10px;
+    color: antiquewhite;
+    font-size: 24px;
+}
+
+.testo-footer{
+    color:rgba(0, 0, 0, 0.6);
+}
